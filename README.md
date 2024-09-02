@@ -44,3 +44,39 @@
 
 - 키워드 기반 투표 검색
 - 카테고리별 검색
+
+## 폴더구조
+
+```bash
+├── src/
+│   ├── assets/                # 이미지, 폰트, 글로벌 스타일
+│   │   ├── images/            # 이미지 파일들
+│   │   ├── fonts/             # 웹 폰트 파일들
+│   │   └── styles/            # 전역 스타일 파일들
+│   │
+│   ├── components/            # 재사용 가능한 UI 컴포넌트
+│   │   ├── common/            # 일반적인 재사용 컴포넌트 (버튼, 입력 필드 등)
+│   │   ├── layout/            # 레이아웃 컴포넌트 (헤더, 푸터 등)
+│   │   └── specific/          # 특정 페이지에 종속된 컴포넌트
+│   │
+│   ├── pages/                 # 페이지 컴포넌트
+│   │   ├── HomePage.js        # 메인 페이지
+│   │   ├── CreateVotePage.js  # 투표 생성 페이지
+│   │   ├── VoteDetailPage.js  # 투표 상세 페이지
+│   │   └── ProfilePage.js     # 사용자 프로필 페이지
+│   │
+│   ├── router/                # 라우팅 설정
+│   │   └── AppRouter.js       # 리액트 라우터 설정
+│   │
+│   ├── services/              # API 호출 등
+│   │   ├── api.js             # API 호출 관련 함수들
+│   │   └── auth.js            # 인증 관련 로직
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+```
