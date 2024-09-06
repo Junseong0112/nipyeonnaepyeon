@@ -1,8 +1,10 @@
+import AppRouter from "./router/AppRouter";
+
 function App() {
   return (
-    <>
-      <h1>니편내편 페이지입니다.</h1>
-    </>
+    <div>
+      <AppRouter />
+    </div>
   );
 }
 
