@@ -60,23 +60,15 @@
 │   │   └── specific/          # 특정 페이지에 종속된 컴포넌트
 │   │
 │   ├── pages/                 # 페이지 컴포넌트
-│   │   ├── HomePage.js        # 메인 페이지
-│   │   ├── CreateVotePage.js  # 투표 생성 페이지
-│   │   ├── VoteDetailPage.js  # 투표 상세 페이지
-│   │   └── ProfilePage.js     # 사용자 프로필 페이지
+│   │   ├── HomePage           # 메인 페이지
+│   │   ├── CreateVotePage     # 투표 생성 페이지
+│   │   ├── VoteDetailPage     # 투표 상세 페이지
+│   │   └── ProfilePage        # 사용자 프로필 페이지
 │   │
 │   ├── router/                # 라우팅 설정
-│   │   └── AppRouter.js       # 리액트 라우터 설정
+│   │   └── AppRouter          # 리액트 라우터 설정
 │   │
 │   ├── services/              # API 호출 등
-│   │   ├── api.js             # API 호출 관련 함수들
-│   │   └── auth.js            # 인증 관련 로직
-│   │
-│   ├── App.jsx
-│   ├── main.jsx
-├── .gitignore
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
+│   │   ├── api                # API 호출 관련 함수들
+│   │   └── auth               # 인증 관련 로직
 ```
