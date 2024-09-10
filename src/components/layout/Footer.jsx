@@ -1,7 +1,11 @@
+import style from "./Footer.module.css";
+
 export default function Footer() {
   return (
-    <footer>
-      <h2>푸터입니다.</h2>
+    <footer className={style.footer}>
+      <p>
+        &copy; <span>2024, Junseong. All Rights Reserved.</span>
+      </p>
     </footer>
   );
 }
