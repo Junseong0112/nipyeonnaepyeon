@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "NixGon";
+  font-weight: 500;
+  src: url("../fonts/NIXGONFONTS_M_2.0.ttf") format("woff");
+}
+@font-face {
+  font-family: "NixGon";
+  font-weight: 600;
+  src: url("../fonts/NIXGONFONTS_B_2.0.ttf") format("woff");
+}
