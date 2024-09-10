@@ -1,0 +1,12 @@
+main {
+  padding: 5rem 0;
+}
+
+.imgbox {
+  text-align: center;
+  margin: 0 0 1.25rem;
+}
+
+.imgbox > img {
+  width: 6.25rem;
+}
