@@ -1,15 +1,3 @@
-.section {
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 1.25rem 0.9375rem;
-}
-
-.title {
-  text-align: center;
-  font-size: 32px;
-  margin: 0 0 1.25rem;
-}
-
 .register {
   display: block;
   margin: 0.9375rem 0;

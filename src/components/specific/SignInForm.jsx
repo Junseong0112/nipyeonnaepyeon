@@ -12,18 +12,17 @@ export default function SignInForm() {
   const [form] = Form.useForm();
 
   return (
-    <section className={style.section}>
-      <h1 className={style.title}>로그인</h1>
+    <>
       <Form form={form} name="login" layout="vertical">
         <Form.Item
-          label="E-mail"
+          label="이메일"
           name="email"
           rules={[{ required: true, message: "이메일을 입력해주세요!" }]}
         >
           <Input size="large" prefix={<UserOutlined />} placeholder="email" />
         </Form.Item>
         <Form.Item
-          label="Password"
+          label="비밀번호"
           name="password"
           rules={[{ required: true, message: "비밀번호를 입력해주세요!" }]}
         >
@@ -47,6 +46,6 @@ export default function SignInForm() {
         <Button icon={<GoogleOutlined />}>Google로 가입하기</Button>
         <Button icon={<GithubOutlined />}>GitHub로 가입하기</Button>
       </article>
-    </section>
+    </>
   );
 }
