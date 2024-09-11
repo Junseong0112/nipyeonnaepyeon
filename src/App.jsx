@@ -9,6 +9,12 @@ function App() {
           colorPrimary: "#F24E1E",
           fontFamily: "NixGon",
         },
+        components: {
+          Input: {
+            fontFamily:
+              "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, Noto Sans, sans-serif",
+          },
+        },
       }}
     >
       <AppRouter />
