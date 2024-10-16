@@ -1,0 +1,10 @@
+.topMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.topMenuRightBox {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
