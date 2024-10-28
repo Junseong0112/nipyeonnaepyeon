@@ -14,14 +14,14 @@ export const DATA = [
   {
     id: 2,
     title: "나의 힐링 스팟은?",
-    option: ["산", "바다"],
+    option: ["피자", "햄버거"],
     imgUrl: [
-      "https://loremflickr.com/320/240/mount",
-      "https://loremflickr.com/320/240/ocean",
+      "https://loremflickr.com/320/240/pizza",
+      "https://loremflickr.com/320/240/hamburger",
     ],
     status: "진행중",
-    category: "연애",
-    description: "가장 힘들때 생각나는 여러분의 힐링 스팟은 어디인가요?",
+    category: "음식",
+    description: "가장 힘들때 생각나는 여러분의 최애 음식은?",
   },
   {
     id: 3,
