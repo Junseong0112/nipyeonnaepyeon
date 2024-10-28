@@ -1,6 +1,17 @@
 import { Select, Button, Input, Segmented } from "antd";
 import VoteCard from "../components/specific/VoteCard";
-import style from "./Homepage.module.css";
+import styled from "styled-components";
+
+const TopMenu = styled.article`
+  display: flex;
+  justify-content: space-between;
+`;
+
+const TopMenuRightBox = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+`;
 
 const { Search } = Input;
 
@@ -9,7 +20,7 @@ export default function HomePage() {
 
   return (
     <main>
-      <article className={style.topMenu}>
+      <TopMenu>
         <div>
           <Search
             placeholder="검색으로 찾아보세요!"
@@ -20,7 +31,7 @@ export default function HomePage() {
             }}
           />
         </div>
-        <div className={style.topMenuRightBox}>
+        <TopMenuRightBox>
           <Segmented
             options={["음식", "영화", "스포츠", "연애", "기타"]}
             onChange={(value) => {
@@ -35,8 +46,8 @@ export default function HomePage() {
             ]}
           />
           <Button>투표 생성</Button>
-        </div>
-      </article>
+        </TopMenuRightBox>
+      </TopMenu>
       <VoteCard />
     </main>
   );

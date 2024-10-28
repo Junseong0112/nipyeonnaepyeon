@@ -6,7 +6,25 @@ import {
   GoogleOutlined,
   GithubOutlined,
 } from "@ant-design/icons";
-import style from "./SignInForm.module.css";
+import styled from "styled-components";
+
+const Register = styled(Link)`
+  display: block;
+  margin: 0.9375rem 0;
+  text-align: right;
+  color: #1a4cff;
+`;
+
+const OauthBox = styled.article`
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+
+  button {
+    font-size: 16px;
+    height: 2.5rem;
+  }
+`;
 
 export default function SignInForm() {
   const [form] = Form.useForm();
@@ -38,14 +56,12 @@ export default function SignInForm() {
           </Button>
         </Form.Item>
       </Form>
-      <Link className={style.register} to="/signup">
-        회원이 아니신가요?
-      </Link>
+      <Register to="/signup">회원이 아니신가요?</Register>
       <Divider>간편로그인</Divider>
-      <article className={style.oauthBox}>
+      <OauthBox>
         <Button icon={<GoogleOutlined />}>Google로 가입하기</Button>
         <Button icon={<GithubOutlined />}>GitHub로 가입하기</Button>
-      </article>
+      </OauthBox>
     </>
   );
 }
