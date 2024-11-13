@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "반려동물 중 내 취향은?",
+    "optionA": "고양이",
+    "optionB": "강아지",
+    "imgUrlA": "https://loremflickr.com/320/240/cat",
+    "imgUrlB": "https://loremflickr.com/320/240/dog",
+    "status": "진행중",
+    "category": "동물",
+    "description": "반려동물을 이제 키워보고 싶은데 여러분의 선택이 듣고 싶어요~"
+  },
+  {
+    "id": 2,
+    "title": "데이트 코스로 더 선호하는 곳은?",
+    "optionA": "실내 데이트",
+    "optionB": "야외 데이트",
+    "imgUrlA": "https://loremflickr.com/320/240/indoor",
+    "imgUrlB": "https://loremflickr.com/320/240/outdoor",
+    "status": "진행중",
+    "category": "연애",
+    "description": "연인과 함께할 때 어떤 데이트를 더 선호하시나요?"
+  },
+  {
+    "id": 3,
+    "title": "영화관에서 팝콘과 음료 중 하나만 고른다면?",
+    "optionA": "팝콘",
+    "optionB": "음료",
+    "imgUrlA": "https://loremflickr.com/320/240/popcorn",
+    "imgUrlB": "https://loremflickr.com/320/240/cola",
+    "status": "진행중",
+    "category": "영화",
+    "description": "영화 한 편을 볼 때 하나만 선택할 수 있다면?"
+  },
+  {
+    "id": 4,
+    "title": "여름/겨울 스포츠 중 하나만 선택한다면?",
+    "optionA": "수영",
+    "optionB": "스키",
+    "imgUrlA": "https://loremflickr.com/320/240/swimming",
+    "imgUrlB": "https://loremflickr.com/320/240/skiing",
+    "status": "진행중",
+    "category": "스포츠",
+    "description": "평생 즐길 수 있는 계절 스포츠를 하나만 고른다면?"
+  },
+  {
+    "id": 5,
+    "title": "한식vs일식, 오늘 저녁은?",
+    "optionA": "김치찌개",
+    "optionB": "초밥",
+    "imgUrlA": "https://loremflickr.com/320/240/koreanfood",
+    "imgUrlB": "https://loremflickr.com/320/240/sushi",
+    "status": "종료됨",
+    "category": "음식",
+    "description": "오늘 저녁 메뉴를 고민중이에요. 여러분의 선택은?"
+  },
+  {
+    "id": 6,
+    "title": "토끼vs햄스터, 둘 중 하나만 키운다면?",
+    "optionA": "토끼",
+    "optionB": "햄스터",
+    "imgUrlA": "https://loremflickr.com/320/240/rabbit",
+    "imgUrlB": "https://loremflickr.com/320/240/hamster",
+    "status": "진행중",
+    "category": "동물",
+    "description": "귀여운 소동물 중 하나를 선택한다면?"
+  },
+  {
+    "id": 7,
+    "title": "액션vs로맨스, 오늘 볼 영화는?",
+    "optionA": "액션",
+    "optionB": "로맨스",
+    "imgUrlA": "https://loremflickr.com/320/240/action",
+    "imgUrlB": "https://loremflickr.com/320/240/romance",
+    "status": "진행중",
+    "category": "영화",
+    "description": "주말 저녁, 어떤 장르의 영화를 보고 싶으신가요?"
+  },
+  {
+    "id": 8,
+    "title": "첫 데이트, 카페vs식당?",
+    "optionA": "카페",
+    "optionB": "식당",
+    "imgUrlA": "https://loremflickr.com/320/240/cafe",
+    "imgUrlB": "https://loremflickr.com/320/240/restaurant",
+    "status": "종료됨",
+    "category": "연애",
+    "description": "처음 만나는 상대와의 데이트, 어디를 선호하시나요?"
+  },
+  {
+    "id": 9,
+    "title": "아이스크림vs케이크",
+    "optionA": "아이스크림",
+    "optionB": "케이크",
+    "imgUrlA": "https://loremflickr.com/320/240/icecream",
+    "imgUrlB": "https://loremflickr.com/320/240/cake",
+    "status": "진행중",
+    "category": "음식",
+    "description": "디저트 하나만 먹을 수 있다면?"
+  },
+  {
+    "id": 10,
+    "title": "농구vs배구, 어떤 구기종목?",
+    "optionA": "농구",
+    "optionB": "배구",
+    "imgUrlA": "https://loremflickr.com/320/240/basketball",
+    "imgUrlB": "https://loremflickr.com/320/240/volleyball",
+    "status": "진행중",
+    "category": "스포츠",
+    "description": "둘 중 어떤 구기종목을 더 재미있게 즐기실 수 있으신가요?"
+  }
+]

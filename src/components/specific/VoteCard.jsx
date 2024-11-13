@@ -1,6 +1,6 @@
 import { Button } from "antd";
 import styled from "styled-components";
-import { DATA } from "../../mock";
+import { useEffect, useState } from "react";
 
 const Section = styled.section`
   margin: 3.125rem 0 0;
@@ -61,21 +61,33 @@ const StyledButton = styled(Button)`
 `;
 
 export default function VoteCard() {
+  const [voteCard, setVoteCard] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:5173/data/voteListData.json", {
+      method: "GET",
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setVoteCard(data);
+      });
+  }, []);
+
   return (
     <Section>
       <VoteList>
-        {DATA.map((item) => (
+        {voteCard.map((item) => (
           <VoteItem key={item.id}>
             <Status isActive={item.status === "진행중"}>{item.status}</Status>
             <VoteTitle>{item.title}</VoteTitle>
             <VoteOptions>
               <OptionFigure>
-                <img src={item.imgUrl[0]} alt={item.option[0]} />
-                <figcaption>{item.option[0]}</figcaption>
+                <img src={item.imgUrlA} alt={item.optionA} />
+                <figcaption>{item.optionA}</figcaption>
               </OptionFigure>
               <OptionFigure>
-                <img src={item.imgUrl[1]} alt={item.option[1]} />
-                <figcaption>{item.option[1]}</figcaption>
+                <img src={item.imgUrlB} alt={item.optionB} />
+                <figcaption>{item.optionB}</figcaption>
               </OptionFigure>
             </VoteOptions>
             <VoteCategory>{item.category}</VoteCategory>
