@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "userId": "user123",
+      "username": "김민준",
+      "profileImage": "https://example.com/profiles/user123.jpg",
+      "createdAt": "2024-01-15T08:30:00Z",
+      "participatedPolls": [
+        {
+          "pollId": "poll789",
+          "title": "좋아하는 계절은?",
+          "votedOption": "봄",
+          "votedAt": "2024-03-10T14:20:00Z"
+        },
+        {
+          "pollId": "poll456",
+          "title": "선호하는 여행지는?",
+          "votedOption": "유럽",
+          "votedAt": "2024-02-25T09:15:00Z"
+        },
+        {
+          "pollId": "poll234",
+          "title": "주말 여가 활동",
+          "votedOption": "영화 감상",
+          "votedAt": "2024-02-15T18:45:00Z"
+        }
+      ],
+      "createdPolls": [
+        {
+          "pollId": "poll901",
+          "title": "이번 주말 모임 시간",
+          "options": ["토요일 낮", "토요일 저녁", "일요일 낮"],
+          "createdAt": "2024-03-01T10:00:00Z",
+          "endDate": "2024-03-15T23:59:59Z",
+          "totalVotes": 15
+        },
+        {
+          "pollId": "poll902",
+          "title": "회식 메뉴 선정",
+          "options": ["한식", "일식", "중식", "양식"],
+          "createdAt": "2024-02-20T11:30:00Z",
+          "endDate": "2024-02-22T18:00:00Z",
+          "totalVotes": 23
+        }
+      ]
+    },
+    {
+      "userId": "user456",
+      "username": "이서연",
+      "profileImage": "https://example.com/profiles/user456.jpg",
+      "createdAt": "2024-01-20T09:45:00Z",
+      "participatedPolls": [
+        {
+          "pollId": "poll901",
+          "title": "이번 주말 모임 시간",
+          "votedOption": "토요일 저녁",
+          "votedAt": "2024-03-02T15:30:00Z"
+        },
+        {
+          "pollId": "poll789",
+          "title": "좋아하는 계절은?",
+          "votedOption": "여름",
+          "votedAt": "2024-03-11T11:20:00Z"
+        }
+      ],
+      "createdPolls": [
+        {
+          "pollId": "poll789",
+          "title": "좋아하는 계절은?",
+          "options": ["봄", "여름", "가을", "겨울"],
+          "createdAt": "2024-03-10T09:00:00Z",
+          "endDate": "2024-03-17T23:59:59Z",
+          "totalVotes": 42
+        }
+      ]
+    }
+  ]
+}
